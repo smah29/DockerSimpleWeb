@@ -6,3 +6,7 @@ Output : Hi there
 
 docker run -p 5000:8080 shreyoshi/simpleweb
 http://localhost:5000/
+
+docker ps
+#use a 2nd process inside the running container
+docker exec -it 6163aa4a64af sh
